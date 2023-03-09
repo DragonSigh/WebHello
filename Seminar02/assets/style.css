@@ -1,0 +1,39 @@
+body {
+    background-color: linen;
+    text-align: center;
+}
+
+.header {
+    background-color: blueviolet;
+    width: 100%
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.nav-link {
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    display: block;
+    background-color: magenta;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link:hover {
+    background-color: #fff;
+    color: magenta;
+    border: 1px solid magenta;
+}
